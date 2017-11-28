@@ -1,0 +1,310 @@
+   /*-------------------------------------*/
+    
+    .cf:before, .cf:after{
+      content:"";
+      display:table;
+    }
+    
+    .cf:after{
+      clear:both;
+    }
+
+    .cf{
+      zoom:1;
+    }
+
+    /*-------------------------------------*/	
+    
+    .form-wrapper {
+        width: 400px ;
+        padding: 12px;
+        
+        margin-top: 10px;
+        margin-bottom: 30px;
+
+        background: #444;
+        background: rgba(0,0,0,.2);
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        -moz-box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+        -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+        box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+    }
+    
+    .form-wrapper input {
+        width: 290px;  
+        padding: 10px 5px;
+        float: left;    
+        font: bold 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
+        border: 0;
+        background: #eee;
+        -moz-border-radius: 3px 0 0 3px;
+        -webkit-border-radius: 3px 0 0 3px;
+        border-radius: 3px 0 0 3px;      
+    }
+    
+    .form-wrapper input:focus {
+        outline: 0;
+        background: #fff;
+        -moz-box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+        -webkit-box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+        box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+    }
+    
+    .form-wrapper input::-webkit-input-placeholder {
+       color: #999;
+       font-weight: normal;
+       font-style: italic;
+    }
+    
+    .form-wrapper input:-moz-placeholder {
+        color: #999;
+        font-weight: normal;
+        font-style: italic;
+    }
+    
+    .form-wrapper input:-ms-input-placeholder {
+        color: #999;
+        font-weight: normal;
+        font-style: italic;
+    }    
+    
+    .form-wrapper button {
+		overflow: visible;
+        position: relative;
+        float: right;
+        border: 0;
+        padding: 0;
+        cursor: pointer;
+        height: 40px;
+        width: 86px;
+        font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+        color: #fff;
+        text-transform: uppercase;
+        background: #d83c3c;
+        -moz-border-radius: 0 3px 3px 0;
+        -webkit-border-radius: 0 3px 3px 0;
+        border-radius: 0 3px 3px 0;      
+        text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+    }   
+      
+    .form-wrapper button:hover{		
+        background: #e54040;
+    }	
+      
+    .form-wrapper button:active,
+    .form-wrapper button:focus{   
+        background: #c42f2f;    
+    }
+    
+    .form-wrapper button:before {
+        content: '';
+        position: absolute;
+        border-width: 8px 8px 8px 0;
+        border-style: solid solid solid none;
+        border-color: transparent #d83c3c transparent;
+        top: 12px;
+        left: -6px;
+    }
+    
+    .form-wrapper button:hover:before{
+        border-right-color: #e54040;
+    }
+    
+    .form-wrapper button:focus:before{
+        border-right-color: #c42f2f;
+    }    
+    
+    .form-wrapper button::-moz-focus-inner {
+        border: 0;
+        padding: 0;
+    }
+.bldb{
+    padding: 24px 5px;
+
+}
+  
+    .form-wrapper1 button {
+        overflow: visible;
+        position: relative;
+        float: right;
+        border: 0;
+        padding: 0;
+        cursor: pointer;
+        height: 40px;
+        width: 286px;
+        font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+        color: #fff;
+        text-transform: uppercase;
+        background: #d83c3c;
+        -moz-border-radius: 0 3px 3px 0;
+        -webkit-border-radius: 0 3px 3px 0;
+        border-radius: 0 3px 3px 0;      
+        text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+    }   
+      
+    .form-wrapper1 button:hover{     
+        background: #e54040;
+    } 
+
+      
+    .form-wrapper1 button:active,
+    .form-wrapper1 button:focus{   
+        background: #c42f2f;    
+    }
+    
+    .form-wrapper1 button:before {
+        content: '';
+        position: absolute;
+        border-width: 8px 8px 8px 0;
+        border-style: solid solid solid none;
+        border-color: transparent #d83c3c transparent;
+        top: 12px;
+        left: -6px;
+    }
+    
+    .form-wrapper1 button:hover:before{
+        border-right-color: #e54040;
+    }
+    
+    .form-wrapper1 button:focus:before{
+        border-right-color: #c42f2f;
+    }    
+    
+    .form-wrapper1 button::-moz-focus-inner {
+        border: 0;
+        padding: 0;
+    }
+
+ .portfolio_body {
+    font-family: 'Vollkorn', serif;
+
+ }
+ .portfolio_body h3{
+    margin-bottom: 40px;
+ }
+ .portfolio_body p{
+    color: black;
+    font-size: 18px;
+    margin-top: -27px;
+ }
+.portfolio_body>p:last-child{
+    font-size: 18px;
+    margin-top: -55px;
+ }
+       
+
+
+           /*******Blog Page Start*********/
+
+.post_body{
+    margin-top: 15px;
+    text-align: justify;
+}
+.page-wrapper .content-wrapper .content .post_body h1, .page-wrapper .content-wrapper .content .post_body h2, .page-wrapper .content-wrapper .content .post_body h3, .page-wrapper .content-wrapper .content .post_body h4, .page-wrapper .content-wrapper .content .post_body h5, .page-wrapper .content-wrapper .content .post_body h6 {
+    color: #000;
+     font-family: 'Open Sans',sans-serif; 
+     font-size: 20px; 
+     font-weight: 600; 
+     letter-spacing: -.2px; 
+    line-height: 1.2; 
+     margin-bottom: 10px; 
+     padding-bottom: 10px;
+     position: none; 
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.page-wrapper .content-wrapper .content .post_body h1{
+    font-size: 22px;
+    font-weight: normal;
+}
+.page-wrapper .content-wrapper .content .post_body h2{
+    font-size: 20px;
+    font-weight: normal;
+}
+.page-wrapper .content-wrapper .content .post_body h3{
+    font-size: 18px;
+    font-weight: normal;
+}
+.page-wrapper .content-wrapper .content .post_body h4{
+    font-size: 16px;
+    font-weight: normal;
+}
+.page-wrapper .content-wrapper .content .post_body h5{
+    font-size: 14px;
+    font-weight: normal;
+}
+
+
+
+
+
+.page-wrapper .content-wrapper .content .post_body h1:after, .page-wrapper .content-wrapper .content .post_body h2:after, .page-wrapper .content-wrapper .content .post_body h3:after, .page-wrapper .content-wrapper .content .post_body h4:after, .page-wrapper .content-wrapper .content .post_body h5:after, .page-wrapper .content-wrapper .content .post_body h6:after{
+    display: none;
+}
+              
+              /*** Blog Page End******/
+              
+
+              /******Single Page Start******/
+
+.single-page{
+     font-family: 'Vollkorn', serif;
+     color:black;
+     font-size: 20px;"
+}
+.sing-page-img img{
+   height: 350px;
+   width: auto;
+}
+.page-wrapper .content-wrapper .content .single-page h3:after, .page-wrapper .content-wrapper .content .single-page h4:after, .page-wrapper .content-wrapper .content .single-page h5:after, .page-wrapper .content-wrapper .content .single-page h6:after{
+    display: none;
+}
+.page-wrapper .content-wrapper .content .single-page h1:after, .page-wrapper .content-wrapper .content .single-page h2:after{
+    background-color: forestgreen;
+    width: 100px;
+}
+.page-wrapper .content-wrapper .content .single-page h1{
+    font-size: 30px;
+    font-weight: normal;
+}
+.page-wrapper .content-wrapper .content .single-page h2{
+    font-size: 28px;
+    font-weight: normal;
+}
+.page-wrapper .content-wrapper .content .single-page h3{
+    font-size: 26px;
+    font-weight: normal;
+}
+.page-wrapper .content-wrapper .content .single-page h4{
+    font-size: 24px;
+    font-weight: normal;
+}
+.page-wrapper .content-wrapper .content .single-page h5{
+    font-size: 22px;
+    font-weight: normal;
+}
+          /*******Single Page End*********/
+          
+          /** Serach Pagination Active Link Start**/
+.ac li.active{
+    
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.428571429;
+    text-decoration: none;
+    background-color: #d45c93;
+    border: 1px solid #d45c93;
+    color:mintcream;
+}
+        /** Serach Pagination Active Link End**/
+
+.page-wrapper .content-wrapper .content .snfe h3:after{
+    display: none;
+}
+
+
+
